@@ -1,0 +1,79 @@
+{
+  "discordToken": "YOUR_DISCORD_BOT_TOKEN_HERE",
+  "botPrefix": "$",
+  "serverId": "YOUR_SERVER_ID",
+  "channels": {
+    "follow": "1468814059108434005",
+    "log": "1478928287697866949",
+    "support": "SUPPORT_CHANNEL_ID",
+    "faq": "FAQ_CHANNEL_ID"
+  },
+  "roles": {
+    "member": "1447457185150795781",
+    "silver": "1478915791004111049",
+    "gold": "1478915663996260403",
+    "diamond": "1478915666169040967",
+    "booster": "1470303969245925417",
+    "premium": "1478915667007770624",
+    "exclusive": "1447457185150795785"
+  },
+  "ownerId": "1118753231334547527",
+  "maxAccounts": 1000,
+  "rateLimit": {
+    "commands": 5,
+    "windowMs": 2000
+  },
+  "cooldowns": {
+    "member": 60000,
+    "silver": 60000,
+    "gold": 60000,
+    "diamond": 60000,
+    "booster": 60000,
+    "premium": 60000,
+    "exclusive": 30000
+  },
+  "followersPerRole": {
+    "member": 10,
+    "silver": 15,
+    "gold": 10,
+    "diamond": 25,
+    "booster": 35,
+    "premium": 50,
+    "exclusive": 100
+  },
+  "database": {
+    "path": "./bot.db",
+    "backupInterval": 3600000
+  },
+  "logging": {
+    "level": "info",
+    "file": "./logs/bot.log",
+    "maxSize": "10m",
+    "maxFiles": "14d"
+  },
+  "monitoring": {
+    "enabled": true,
+    "interval": 300000,
+    "statusChannel": "STATUS_CHANNEL_ID"
+  },
+  "features": {
+    "autoRoleAssignment": true,
+    "proxySupport": true,
+    "captchaSolving": false,
+    "bulkOperations": true,
+    "analytics": true,
+    "giveaways": true
+  },
+  "security": {
+    "banPrevention": true,
+    "accountCooldown": 180000,
+    "maxConcurrentAccounts": 50,
+    "proxyRotation": true
+  },
+  "hosting": {
+    "platform": "replit",
+    "keepAlive": true,
+    "memoryOptimization": true,
+    "processManagement": true
+  }
+}
